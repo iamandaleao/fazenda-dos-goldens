@@ -8,7 +8,7 @@ useHead({
   ],
   htmlAttrs: {
     lang: 'pt-BR',
-     style: 'scroll-behavior: smooth',
+    style: 'scroll-behavior: smooth'
   }
 })
 
