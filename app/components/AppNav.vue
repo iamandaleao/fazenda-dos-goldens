@@ -10,9 +10,9 @@
         <!-- Desktop Menu -->
         <div class="hidden md:flex space-x-6 lg:space-x-8">
           <a
-            href="#inicio"
+            href="#home"
             class="text-gray-700 hover:text-amber-600 transition text-sm lg:text-base"
-          >Início</a>
+          >Home</a>
           <a
             href="#sobre"
             class="text-gray-700 hover:text-amber-600 transition text-sm lg:text-base"
@@ -56,11 +56,11 @@
     >
       <div class="px-4 pt-2 pb-3 space-y-1">
         <a
-          href="#inicio"
+          href="#home"
           class="block px-3 py-2 text-gray-700 hover:bg-amber-50 rounded"
           @click="mobileMenuOpen = false"
         >
-          Início
+          Home
         </a>
         <a
           href="#sobre"

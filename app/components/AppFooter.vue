@@ -18,9 +18,9 @@
           <ul class="space-y-2 text-sm sm:text-base text-gray-400">
             <li>
               <a
-                href="#inicio"
+                href="#home"
                 class="hover:text-amber-400 transition"
-              >Início</a>
+              >Home</a>
             </li>
             <li>
               <a

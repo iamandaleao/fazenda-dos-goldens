@@ -1,6 +1,6 @@
 <template>
   <section
-    id="inicio"
+    id="home"
     class="pt-20 sm:pt-24 pb-12 sm:pb-16 bg-gradient-to-br from-amber-50 to-orange-50"
   >
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
