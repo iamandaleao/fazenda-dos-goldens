@@ -5,7 +5,7 @@
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
         <div>
           <h3 class="text-xl sm:text-2xl font-bold text-amber-400 mb-3 sm:mb-4">
-            Golden Farm
+            Fazenda dos Goldens
           </h3>
           <p class="text-sm sm:text-base text-gray-400">
             Criação responsável de Golden Retrievers em Formiga, Minas Gerais.
@@ -88,7 +88,7 @@
         </div>
       </div>
       <div class="border-t border-gray-800 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-gray-400">
-        <p>&copy; 2025 Golden Farm. Todos os direitos reservados.</p>
+        <p>&copy; 2025 Fazenda dos Goldens. Todos os direitos reservados.</p>
       </div>
     </div>
   </footer>
