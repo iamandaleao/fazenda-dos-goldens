@@ -14,7 +14,7 @@
       </p>
       <button
         class="bg-white text-amber-600 px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold hover:bg-gray-100 transition inline-flex items-center gap-2 text-base sm:text-lg"
-        @click="handleWhatsAppClick"
+        @click="openWhatsapp"
       >
         <MessageCircle :size="20" />
         Falar no WhatsApp
@@ -22,15 +22,3 @@
     </div>
   </section>
 </template>
-
-<script setup>
-// Configuração do WhatsApp
-// IMPORTANTE: Substitua pelo seu número real no formato: 5537999999999
-const whatsappNumber = '5537999999999'
-const whatsappMessage = 'Olá! Tenho interesse nos filhotes de Golden Retriever 🐕'
-
-const handleWhatsAppClick = () => {
-  const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
-  window.open(url, '_blank')
-}
-</script>

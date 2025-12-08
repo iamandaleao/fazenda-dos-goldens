@@ -19,7 +19,7 @@
         <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
           <button
             class="bg-green-500 text-white px-6 sm:px-8 py-3 rounded-lg font-semibold hover:bg-green-600 transition flex items-center justify-center gap-2"
-            @click="handleWhatsAppClick"
+            @click="openWhatsapp"
           >
             <MessageCircle :size="20" />
             Falar no WhatsApp
@@ -44,14 +44,4 @@
 
 <script setup>
 import { ChevronDown, MessageCircle } from 'lucide-vue-next'
-
-// Configuração do WhatsApp
-// IMPORTANTE: Substitua pelo seu número real no formato: 5537999999999
-const whatsappNumber = '5537999999999'
-const whatsappMessage = 'Olá! Tenho interesse nos filhotes de Golden Retriever 🐕'
-
-const handleWhatsAppClick = () => {
-  const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
-  window.open(url, '_blank')
-}
 </script>
