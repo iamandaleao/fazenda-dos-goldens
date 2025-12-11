@@ -70,7 +70,7 @@ const allPosts = {
   'como-escolher-um-golden-saudavel': {
     title: "Como escolher um Golden saudável",
     excerpt: "Um guia completo para entender linhagem, saúde e comportamento ao escolher seu futuro companheiro de quatro patas.",
-    image: "https://images.unsplash.com/photo-1633722715463-d30f4f325e24?w=1200&h=600&fit=crop",
+    image: "https://placedog.net/800/600?id=1",
     content: `
       <h2 class="text-3xl font-bold text-gray-900 mt-8 mb-4">O que observar na linhagem</h2>
       <p class="text-gray-700 leading-relaxed mb-4">A linhagem do Golden Retriever é fundamental para garantir um cão saudável e com bom temperamento. Procure criadores que possam comprovar a saúde dos pais através de exames específicos como displasia coxofemoral e problemas cardíacos.</p>
@@ -84,7 +84,7 @@ const allPosts = {
   'primeiros-cuidados-filhote': {
     title: "Primeiros cuidados com um filhote",
     excerpt: "Dicas práticas e essenciais para garantir que seu filhote cresça feliz, saudável e bem adaptado à nova casa.",
-    image: "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=1200&h=600&fit=crop",
+    image: "https://placedog.net/800/600?id=2",
     content: `
       <h2 class="text-3xl font-bold text-gray-900 mt-8 mb-4">Preparando a casa</h2>
       <p class="text-gray-700 leading-relaxed mb-4">Antes de trazer o filhote para casa, prepare um espaço seguro com caminha, comedouro, bebedouro e brinquedos. Remova objetos perigosos e fios elétricos que possam ser mordidos.</p>
@@ -98,7 +98,7 @@ const allPosts = {
   'alimentacao-golden-retriever': {
     title: "Alimentação ideal para Golden Retriever",
     excerpt: "Descubra qual a melhor alimentação para cada fase da vida do seu Golden e mantenha ele sempre saudável.",
-    image: "https://images.unsplash.com/photo-1612536880854-5d5f2f2f8f1f?w=1200&h=600&fit=crop",
+    image: "https://placedog.net/800/600?id=3",
     content: `
       <h2 class="text-3xl font-bold text-gray-900 mt-8 mb-4">Ração de qualidade é essencial</h2>
       <p class="text-gray-700 leading-relaxed mb-4">Golden Retrievers precisam de ração premium ou super premium, rica em proteínas de qualidade e com ingredientes balanceados. Opte por marcas que tenham carne como primeiro ingrediente da lista e evite rações com muitos conservantes artificiais ou subprodutos.</p>
@@ -112,7 +112,7 @@ const allPosts = {
   'exercicios-brincadeiras-goldens': {
     title: "Exercícios e brincadeiras para Goldens",
     excerpt: "Atividades divertidas e exercícios importantes para manter seu Golden ativo, feliz e com muita energia.",
-    image: "https://images.unsplash.com/photo-1558788353-f76d92427f16?w=1200&h=600&fit=crop",
+    image: "https://placedog.net/800/600?id=4",
     content: `
       <h2 class="text-3xl font-bold text-gray-900 mt-8 mb-4">Necessidades de exercício diário</h2>
       <p class="text-gray-700 leading-relaxed mb-4">Golden Retrievers são cães ativos que precisam de pelo menos 1 hora de exercício por dia, dividido em duas ou três sessões. Isso inclui caminhadas, corridas leves e brincadeiras. Exercícios regulares previnem obesidade, ansiedade e comportamentos destrutivos.</p>
