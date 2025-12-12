@@ -6,6 +6,11 @@ export default defineNuxtConfig({
     '@nuxt/content'
   ],
 
+  content: {
+    // evita o uso do better-sqlite3
+    driver: 'memory'
+  },
+
   devtools: {
     enabled: true
   },
@@ -35,7 +40,7 @@ export default defineNuxtConfig({
   routeRules: {
     '/': { prerender: true },
     '/blog': { prerender: true },
-    '/blog/**': { prerender: true } 
+    '/blog/**': { prerender: true }
   },
 
   compatibilityDate: '2025-01-15',
