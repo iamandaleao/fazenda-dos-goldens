@@ -43,33 +43,18 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+// Busca todos os posts da pasta content/blog/
+const { data: posts } = await useAsyncData('blog-posts', () => 
+  queryContent('blog').find()
+)
 
-// Dados dos posts com imagens de placeholder
-const posts = ref([
-  {
-    title: "Como escolher um Golden saudável",
-    slug: "como-escolher-um-golden-saudavel",
-    image: "https://placedog.net/800/600?id=1",
-    excerpt: "Um guia completo para entender linhagem, saúde e comportamento ao escolher seu futuro companheiro...",
-  },
-  {
-    title: "Primeiros cuidados com um filhote",
-    slug: "primeiros-cuidados-filhote",
-    image: "https://placedog.net/800/600?id=2",
-    excerpt: "Dicas práticas e essenciais para garantir que seu filhote cresça feliz, saudável e bem adaptado à nova casa...",
-  },
-  {
-    title: "Alimentação ideal para Golden Retriever",
-    slug: "alimentacao-golden-retriever",
-    image: "https://placedog.net/800/600?id=3",
-    excerpt: "Descubra qual a melhor alimentação para cada fase da vida do seu Golden e mantenha ele sempre saudável...",
-  },
-  {
-    title: "Exercícios e brincadeiras para Goldens",
-    slug: "exercicios-brincadeiras-goldens",
-    image: "https://placedog.net/800/600?id=4",
-    excerpt: "Atividades divertidas e exercícios importantes para manter seu Golden ativo, feliz e com muita energia...",
-  }
-])
+// Transforma os posts para ter a propriedade slug
+const formattedPosts = computed(() => {
+  if (!posts.value) return []
+  
+  return posts.value.map(post => ({
+    ...post,
+    slug: post._path.replace('/blog/', '')
+  }))
+})
 </script>
